@@ -1,0 +1,106 @@
+body {
+	background-image:url(../images/pink/bb.jpg);
+}
+h2 {
+	color:#c96897
+}
+h2:after {
+	background: url(../images/pink/bullet.png);
+	background-size: cover;
+}
+.bullet {
+	background: url(../images/pink/bullet.png);
+	background-size: cover;
+}
+.im1 .im_arrows {
+	background: url(../images/pink/fl1.png);
+	width: 470px;
+	height: 390px;
+	position: absolute;
+	z-index: -1;
+	margin: -51px 0 0 -94px
+}
+.im2 .im_arrows {
+	background: url(../images/pink/fl2.png);
+	width: 472px;
+	height: 350px;
+	position: absolute;
+	z-index: -1;
+	margin: -46px 0 0 -67px
+}
+.im_arrows:after {
+
+}
+
+.btn {
+	color:#c96897!important;
+	border: 2px solid #c96897
+	
+}
+	.btn:hover {
+		background:#c96897;
+		color:#fff!important
+	}
+	.btn:active, .btn:focus {
+		background:#c96897;
+	}
+.married_coundown {
+	color: #c96897;
+}
+.double_arrow {
+	background: url(../images/pink/double_arrow.png);
+	background-size: cover;
+}
+
+.owl-pagination {
+	background: url(../images/pink/arrow_back.png) repeat-x;
+	background-size: cover
+}
+.owl-pagination:before {
+	background: url(../images/pink/arrow_end.png);
+	background-size: cover;
+}
+.owl-pagination:after {
+	background: url(../images/pink/arrow_start.png);
+	background-size: cover;
+}
+.owl-page:after {
+	background: url(../images/pink/bullet.png);
+	background-size: cover
+}
+.owl-page.active:after {
+	background: url(../images/pink/bullet_active.png);
+	background-size: cover
+}
+
+.story_title, .story_title i {
+	color: #c96897;
+}
+.story_title:before, .story_title:after {
+	background:#c96897;
+}
+
+.when_where .over{
+	background:rgba(99,84,85,0.83);
+}
+.footer .over {
+	background:rgba(99,84,85,0.43);
+}
+.paper {
+	background:url(../images/pink/paper.jpg);
+}
+.envelope_back {
+	background:url(../images/pink/env_back.jpg);
+}
+.env_top {
+	background: url(../images/pink/env_top.png);
+}
+.env_top_top {
+	background: url(../images/pink/env_top_top.png);
+}
+.envelope_front {
+	background:url(../images/pink/envelope_front.png);
+}
+.paper .paper_title {
+	color: #c96897;
+}

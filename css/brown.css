@@ -1,0 +1,95 @@
+body {
+	background-image:url(../images/brown/main_back.jpg);
+}
+h2 {
+	color:#d9c6b1
+}
+h2:after {
+	background: url(../images/brown/bullet.png);
+	background-size: cover;
+}
+.bullet {
+	background: url(../images/brown/bullet.png);
+	background-size: cover;
+}
+.im_arrows:before {
+	background: url(../images/brown/im_arrow_end.png);
+	background-size: cover;
+}
+.im_arrows:after {
+	background: url(../images/brown/im_arrow_start.png);
+	background-size: cover;
+}
+
+.btn {
+	color:#d9c6b1!important;
+	border: 2px solid #d9c6b1
+	
+}
+	.btn:hover {
+		background:#e77f66;
+		color:#fff!important
+	}
+	.btn:active, .btn:focus {
+		background:#e77f66;
+	}
+.married_coundown {
+	color: #e77f66;
+}
+.double_arrow {
+	background: url(../images/brown/double_arrow.png);
+	background-size: cover;
+}
+
+.owl-pagination {
+	background: url(../images/brown/arrow_back.png) repeat-x;
+	background-size: cover
+}
+.owl-pagination:before {
+	background: url(../images/brown/arrow_end.png);
+	background-size: cover;
+}
+.owl-pagination:after {
+	background: url(../images/brown/arrow_start.png);
+	background-size: cover;
+}
+.owl-page:after {
+	background: url(../images/brown/bullet.png);
+	background-size: cover
+}
+.owl-page.active:after {
+	background: url(../images/brown/bullet_active.png);
+	background-size: cover
+}
+
+.story_title, .story_title i {
+	color: #d9c6b1;
+}
+.story_title:before, .story_title:after {
+	background:#d9c6b1;
+}
+
+.when_where .over{
+	background:rgba(89,89,89,0.83);
+}
+.footer .over {
+	background:rgba(89,89,89,0.43);
+}
+.paper {
+	background:url(../images/brown/paper.jpg);
+}
+.envelope_back {
+	background:url(../images/brown/env_back.jpg);
+}
+.env_top {
+	background: url(../images/brown/env_top.png);
+}
+.env_top_top {
+	background: url(../images/brown/env_top_top.png);
+}
+.envelope_front {
+	background:url(../images/brown/envelope_front.png);
+}
+.paper .paper_title {
+	color: #e77f66;
+}

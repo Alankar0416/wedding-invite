@@ -1,0 +1,95 @@
+body {
+	background-image:url(../images/red/main_back.jpg);
+}
+h2 {
+	color:#e93b38
+}
+h2:after {
+	background: url(../images/red/bullet.png);
+	background-size: cover;
+}
+.bullet {
+	background: url(../images/red/bullet.png);
+	background-size: cover;
+}
+.im_arrows:before {
+	background: url(../images/red/im_arrow_end.png);
+	background-size: cover;
+}
+.im_arrows:after {
+	background: url(../images/red/im_arrow_start.png);
+	background-size: cover;
+}
+
+.btn {
+	color:#e93b38!important;
+	border: 2px solid #e93b38
+	
+}
+	.btn:hover {
+		background:#e93b38;
+		color:#fff!important
+	}
+	.btn:active, .btn:focus {
+		background:#e93b38;
+	}
+.married_coundown {
+	color: #e93b38;
+}
+.double_arrow {
+	background: url(../images/red/double_arrow.png);
+	background-size: cover;
+}
+
+.owl-pagination {
+	background: url(../images/red/arrow_back.png) repeat-x;
+	background-size: cover
+}
+.owl-pagination:before {
+	background: url(../images/red/arrow_end.png);
+	background-size: cover;
+}
+.owl-pagination:after {
+	background: url(../images/red/arrow_start.png);
+	background-size: cover;
+}
+.owl-page:after {
+	background: url(../images/red/bullet.png);
+	background-size: cover
+}
+.owl-page.active:after {
+	background: url(../images/red/bullet_active.png);
+	background-size: cover
+}
+
+.story_title, .story_title i {
+	color: #e93b38;
+}
+.story_title:before, .story_title:after {
+	background:#e93b38;
+}
+
+.when_where .over{
+	background:rgba(89,89,89,0.83);
+}
+.footer .over {
+	background:rgba(89,89,89,0.43);
+}
+.paper {
+	background:url(../images/red/paper.jpg);
+}
+.envelope_back {
+	background:url(../images/red/env_back.jpg);
+}
+.env_top {
+	background: url(../images/red/env_top.png);
+}
+.env_top_top {
+	background: url(../images/red/env_top_top.png);
+}
+.envelope_front {
+	background:url(../images/red/envelope_front.png);
+}
+.paper .paper_title {
+	color: #e93b38;
+}

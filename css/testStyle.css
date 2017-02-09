@@ -1,0 +1,21 @@
+div.imageSub { position: relative; }
+div.imageSub img { z-index: 1; }
+div.imageSub div {
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  bottom: 0;
+  padding: 4px;
+}
+div.imageSub div.blackbg {
+  z-index: 2;
+  color: #000;
+  background-color: #000;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+}
+div.imageSub div.label {
+  z-index: 3;
+  color: white;
+}
