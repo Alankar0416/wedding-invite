@@ -116,7 +116,7 @@
     });
 
     /*CountDown*/
-    $('.married_coundown').countdown({until: new Date("March 1, 2017 11:00:00")});
+    $('.married_coundown').countdown({until: new Date("Feb 18, 2017 11:00:00")});
 
     /*OWL Carousel in Our Story*/
     $(".story_wrapper").owlCarousel({
