@@ -35,7 +35,12 @@
         return false;
       }
 
-      var dataString = '&entry.1507026591=' + name + '&entry.39623412=' + email + '&entry.475560411=' + guest + '&entry.1161442756=' + attending;
+      console.log(name);
+      console.log(email);
+      console.log(guest);
+      console.log(attending);
+
+      var dataString = '&entry.1068564038=' + name + '&entry.352472512=' + email + '&entry.1150838879=' + guest + '&entry.66493311=' + attending;
       var form = $(this);
       var str = form.serialize();
       function sent(){
@@ -43,7 +48,7 @@
       }
       $.ajax({
         type: "POST",
-        url: "https://docs.google.com/forms/d/e/1FAIpQLSf1d8CJr38panC2YqtCgVsmX2TAaFwZCTAGuGPCzuFXMz2UCw/formResponse",
+        url: "https://docs.google.com/forms/d/1OCiSMSdit8QgxlhWjO9y9MmtFgpLdo52xf7UaCfY_ng/formResponse",
         data: dataString,
         complete:sent
       });
